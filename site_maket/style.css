@@ -1,26 +1,114 @@
+@font-face {
+   font-family: 'Gilroy-Bold';
+   src: url('./font2/Gilroy-Bold.woff2');
+}
+@font-face {
+   font-family: 'Gilroy-Medium';
+   src: url('./font2/Gilroy-Medium.woff2');
+}
 * {
  margin: 0;
- padding: 0;   
+ padding: 0;
+ text-decoration: none;   
  }
+ body{
+   box-sizing: border-box;
+   font-style: normal;
+   font-weight: 600;
+   scroll-behavior: smooth;
+   font-family: 'Gilroy-Medium';
+  
+}
  .top{
-    padding-bottom: 96px;
+   width: 1087px;
+   margin: 0 auto;
  }
  .header{
-    margin-top: 40px;
-    margin-bottom: 82.71px;
+   display: flex;
+   align-content: center;
+   align-items: center;
+   margin-top: 40px;
+   margin-bottom: 82.71px;
+}
+ .header__logo {
+   width: 136px;
+   display: flex;
  }
+ .header__menu {
+   margin-left: 500px;
+   width: 533px;
+   font-size: 14px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+   display: flex;
+   justify-content: space-between;
+ }
+ .nav1{
+   color: #F25822;
+   font-family: 'Gilroy-Bold';   
+}
+.nav2{
+   color: #000;
+}
  .top__content{
-    margin-top: 162.71px;
-    margin-bottom: 162.45px;
+   /* margin-top: 162.71px; */
+   margin-top: 80px;
+   margin-bottom: 162.45px;
+   display: flex;
+   justify-content: space-between;
+   gap: 41px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
  }
  .top__title{
-    margin-bottom: 17px;
+   margin-bottom: 17px;
+   width: 522px;
+   font-size: 60px;
+   font-family: "Gilroy-Bold";
 
 }
 .top__text{
-    margin-top: 30px;
+   width: 466px;
+   color: #888;
+   font-size: 20px;
 }
 
 .top_buttons{
-    margin-top: 37px;
+   margin-top: 37px;
+   width: 302px;
+   display: flex;
+   justify-content: space-evenly;
+   gap: 72px;
+}
+.btn1{
+   width: 140px;
+   height: 50px;
+   flex-shrink: 0;
+   border-radius: 50px;
+   background: #F25822;
+   color: white;
+   box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+   border-style: none;
+   font-family: 'Gilroy-Bold';
+   font-size: 15px; 
+      
+
+}
+.btn2{
+   color: #AAA;
+   font-family: 'Gilroy-Bold';
+   font-size: 15px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+   border-style: none;
+   background-color: white;
+}
+.top__logos{
+   margin-top: 97px;
+   padding-bottom: 96px;
+   display: flex;
+   justify-content: space-between;
 }
