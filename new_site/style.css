@@ -90,10 +90,7 @@ img {
     gap: 33px;
     max-width: 168px;
 }
-/* .menu
-.account
-.basket */
-/* .header_button_img */
+
 .header_content{
     display: flex;
     justify-content: center;
@@ -220,4 +217,50 @@ img {
     font-style: normal;
     line-height: normal;
     text-decoration: none;
+}
+@media (min-width:768px) and (max-width:1024px)  {
+    .header_menu{
+        max-height: 75px;
+        gap: 424px;
+        padding-top: 18px;
+        padding-bottom: 18px;
+    }
+    .header_content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 39px;
+    }
+    .header_title{
+        padding-left: 16px;
+        border-left: 12px solid #F16D7F;
+        height: 92px;
+        display: grid;
+        justify-content: left;
+        align-items: flex-end;    
+        padding-right: 33.5px;
+    }
+    .header_title_big{
+        font-size: 44px;
+    }
+    .header_title_little{
+        font-size: 24px;
+    }
+    .header_title_little_pink{
+        font-size: 24px;
+    }
+    .offer_content{
+        display: grid;
+        grid-template-columns: repeat(3, 232px);
+        justify-content: center;
+        gap: 20px;
+    }
+    .product_content{
+        width: 50vw;
+        display: grid;
+        grid-template-columns: repeat(2, 360px);
+        justify-content: center;
+        gap: 16px;
+    }
+
 }
